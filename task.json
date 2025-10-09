@@ -7,7 +7,7 @@
   "interface_num": 2,
   "task": {
     "user_id": "17",
-    "instruction": "You are Kelly Fuller (kfuller@outlook.com), a fund manager with fund_manager approval authority. You want to create a report, which requires approval for a subscription from the investor, Hayes LLC into the fund, King-Wilson Value Fund. Add an audit trail for this action.",
+    "instruction": "You are Jacqueline Sutton (jsutton@finance.com), a fund manager with fund manager approval authority. You want to create a report for investment from investor Hodges Ltd into Lawson, Adkins and Wilson Value Fund. You want to refer to any performance report that exist for this investor and fund with status with report ID 71. Add an audit trail for this.",
     "actions": [
         {
           "name": "search_user_entities",
