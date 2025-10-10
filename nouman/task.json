@@ -7,7 +7,7 @@
   "interface_num": 2,
   "task": {
     "user_id": "",
-    "instruction": "",
+    "instruction": "You are Cynthia Ferguson (cynthiaferguson@investment.com), a compliance officer. You want to offboard the investor, Foster, Smith, and Grimes. Endeavor to cancel the approved subscription from this investor with the approval of Gabrielle Cameron (gabriellecameron@hotmail.com), a fund manager, before proceeding with offboarding the investor.",
     "actions": [
       {
         "name": "search_user_entities",
@@ -302,7 +302,11 @@
         }
       }
     ],
-    "outputs": [ ],
+    "outputs": [
+      "3",
+      "793",
+      "3501"
+     ],
     "edges": [
       {
         "from": "instruction",
