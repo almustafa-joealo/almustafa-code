@@ -293,16 +293,16 @@
         "from": "search_investor_entities",
         "to": "search_investment_flow_entities",
         "connection": {
-            "output": "entity_type,output.results[0].investor_id",
-            "input": "entity_type,filters.investor_id"
+            "output": "output.results[0].investor_id",
+            "input": "filters.investor_id"
         }
         },
         {
         "from": "search_fund_entities",
         "to": "search_investment_flow_entities",
         "connection": {
-            "output": "entity_type,output.results[0].fund_id",
-            "input": "entity_type,filters.fund_id"
+            "output": "output.results[0].fund_id",
+            "input": "filters.fund_id"
         }
         },    
         {
@@ -325,8 +325,8 @@
         "from": "instruction",
         "to": "handle_subscription",
         "connection": {
-            "output": "action,amount,request_assigned_to,fund_manager_approval",
-            "input": "action,subscription_data.amount,subscription_data.request_assigned_to,subscription_data.fund_manager_approval"
+            "output": "action,amount,fund_manager_approval",
+            "input": "action,subscription_data.amount,subscription_data.fund_manager_approval"
         }
         },
         {
